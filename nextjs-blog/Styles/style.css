@@ -75,7 +75,7 @@ fieldset{
     z-index: 1000;
 }
 .cabecalho, .cabecalho.fixed {
-    position: fixed;
+    position:relative;
 }
 *, ::after, ::before {
     box-sizing: inherit;

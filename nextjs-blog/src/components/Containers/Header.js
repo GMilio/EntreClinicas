@@ -1,11 +1,12 @@
 import Head from 'next/head'
-import Link from '../src/components/Link'
+import Link from '../Link'
 
 export default function Header({}){
-    return(
-
+    return( 
         <header class="cabecalho">
-        <a href="">Logo</a>
+         <Link href="/">
+                    Logo
+                  </Link>
         <nav>
             <ul class="lista">
               <li>

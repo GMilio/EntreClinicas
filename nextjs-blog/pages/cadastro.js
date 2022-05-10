@@ -15,7 +15,7 @@ export default function Cadastro() {
                       <h2>idade<input type="text" name="idade" id="idade" /></h2>
                       <h2>Sou:</h2>
                       <h3>Paciente<input type="radio" name="paciente" id="paciente" /></h3>
-                      <h3>Profissional de Saude <input type="radio" name="profissional" id="profissional" /></h3>
+                      <h3>Profissional de Saude .<input type="radio" name="profissional" id="profissional" /></h3>
                       <input type="button" value="Entrar" />
                   </form>
               </section>

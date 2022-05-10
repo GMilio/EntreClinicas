@@ -15,11 +15,11 @@ a{
     font-size: 20px;
 }
 p{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 label{
-    color: white;
+    color: rgb(0, 0, 0);
     display: block;
     float: left;
 }
@@ -31,10 +31,10 @@ h2{
 }
 h3{
     font-size: 15px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 h4{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 img{

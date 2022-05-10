@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from '../src/components/Link'
-
+import Footer from '../src/components/Containers/Footer/footer'
 
 export default function Home() {
   return (
@@ -39,23 +39,7 @@ export default function Home() {
     </section>
       </main>
 
-      <footer>
-      <p>Entre Em Contato conosco atraves de nossos canais de atendimento Esperamos ter Ajudado  Volte Sempre</p>
-        <nav>
-          <ul class="lista">
-              <form class="form" action="">
-                <fieldset>
-                    <li><label>Nome Completo:</label><input type="text" name="" id=""/></li>
-                    <li><label>Email:</label> <input class="email" type="email" name="" id=""/></li>
-                    <li><label>Telefone:</label><input class="tel" type="tel" name="" id=""/></li>
-                    <li><label>Envie sua Sugest?o ou Duvida:</label><textarea name="" id="" cols="38" rows="8"></textarea></li>
-                    <li> <label> Enviar </label></li>
-                </fieldset>
-            </form>
-          </ul>
-      </nav>
-
-      </footer>
+      <Footer></Footer>
 
     </div>
   )

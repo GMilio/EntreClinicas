@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -14,7 +15,11 @@ export default function Home() {
       <a href="">Logo</a>
       <nav>
           <ul class="lista">
-              <li><a href="./atendimentos">Atendimentos</a></li>
+              <li>
+                <Link href="./atendimentos">
+                  <a>Atendimentos</a>
+                </Link>
+              </li>
               <li><a href="">Cursos</a></li>
               <li><a href="">Parcerias</a></li>
               <li><a href="">Entrar</a></li>

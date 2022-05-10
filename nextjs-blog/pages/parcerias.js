@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-export default function Atendimentos() {
+export default function Parcerias() {
   return (
     <div>
       <ul>
         <li>
-            Atendimentos
+            Parcerias
         </li>
         <li>
             <Link href="./">

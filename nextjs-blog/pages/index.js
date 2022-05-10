@@ -1,9 +1,6 @@
 import Head from 'next/head'
-<<<<<<< HEAD
-import Link from 'next/link'
-=======
 import Link from '../src/components/Link'
->>>>>>> 41a74d6f56633bf077989fbe7f5a274906a9f0d4
+
 
 export default function Home() {
   return (
@@ -15,32 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-      <header class="cabecalho">
-      <a href="">Logo</a>
-      <nav>
-          <ul class="lista">
-            <li>
-                <Link href="/atendimentos">
-                  Atendimentos
-                </Link>
-            </li>
-            <li>
-                <Link href="/cursos">
-                  Cursos
-                </Link>
-            </li>
-            <li>
-                <Link href="./parcerias">
-                  Parcerias
-                </Link>
-            </li>                  
-              <li><a href="">Entrar</a></li>
-              <li><a href="">Cadastre-se</a></li>
-          </ul>
-      </nav>
-      <div class="divban">
-    </div>
-  </header>
+
   <section class="sectstyle">
         <div>
             <img src="..//Projeto Yooper/img/img1.jpg"/>

@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <link rel="stylesheet" href="./style.css"></link>
+        <link rel="styleeshet" href="./style.css"></link>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -14,7 +14,7 @@ export default function Home() {
       <a href="">Logo</a>
       <nav>
           <ul class="lista">
-              <li><a href="">Atendimentos</a></li>
+              <li><a href="./atendimentos">Atendimentos</a></li>
               <li><a href="">Cursos</a></li>
               <li><a href="">Parcerias</a></li>
               <li><a href="">Entrar</a></li>

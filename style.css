@@ -1,0 +1,151 @@
+body, 
+ul, 
+li ,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+p{
+    color: white;
+}
+
+label{
+    color: white;
+    display: block;
+    float: left;
+}
+label,input{
+    width: 200px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 15px;
+    color: white;
+}
+h4{
+    color: white;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+input{
+    width: 200px;
+    height: 20px;
+    background-color: #f2f2f2;
+    padding: 3px;
+    border: 1px solid #ccc;
+    color: #333;
+}
+fieldset{
+    width: 600px;
+    height: 300px;
+}
+.cabecalho{
+  background-color: rgb(146, 232, 244);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.cabecalho.scroll {
+    background: #fff;
+}
+.cabecalho.scroll {
+    box-shadow: 0 2px 16px 0 #00000033;
+}
+.cabecalho {
+    width: 100%;
+    padding: 0;
+    height: 3.75rem;
+    z-index: 1000;
+}
+.cabecalho, .cabecalho.fixed {
+    position: fixed;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+.divban{
+    position: relative;
+    width: 80%;
+    margin-left:auto ;
+    margin-right: auto;
+    text-align: center;
+}
+.lista{
+display: flex;
+  
+}
+.lista li{
+    margin-left: 10px;
+
+}
+.lista li a{
+    display: block;
+    padding: 10px;
+}
+
+h1{
+    text-align:center;
+    margin-top: 80px;
+    
+}
+.sectstyle{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.sectstyle > div {
+    flex: 1 1 200px;
+    margin: 7px ;
+}
+
+.rodape{
+    background: rgb(146, 232, 244);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.Cta{
+    font-size: 20px;
+    align-self: center;
+    display: block;
+    background: tomato;
+    border-radius: 5px;
+     
+}
+body::-webkit-scrollbar 
+{
+    width: 12px;               
+  }
+  
+  body::-webkit-scrollbar-track
+   {
+    background: rgb(146, 232, 244);       
+  }
+  
+  body::-webkit-scrollbar-thumb 
+  {
+    background-color: azure;   
+    border-radius: 20px;       
+    border: 3px solid rgb(146, 232, 244);  
+  }
+
+

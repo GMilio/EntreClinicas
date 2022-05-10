@@ -24,8 +24,16 @@ export default function Header({}){
                     Parcerias
                   </Link>
               </li>                  
-                <li><a href="">Entrar</a></li>
-                <li><a href="">Cadastre-se</a></li>
+                <li>
+                <Link href="./login">
+                    Entrar
+                  </Link>
+                </li>
+                <li>
+                <Link href="./cadastro">
+                    Cadastre-se
+                  </Link>
+                </li>
             </ul>
         </nav>
         <div class="divban">

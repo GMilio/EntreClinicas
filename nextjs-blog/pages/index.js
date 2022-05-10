@@ -10,7 +10,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <link rel="styleeshet" href="./style.css"></link>
-        <title>Create Next App</title>
+        <title>Entre Clinicas</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

@@ -23,6 +23,7 @@ export default function Cursos() {
                     <h3>AUXILIAR DE FARMÁCIA</h3>
                     <h3>RECEPCIONISTA AMBULATORIAL</h3>
                 </div>
+                <h2>Encontre os melhores cursos e se qualifique para trabalhar em nossas clicnicas ou em seu proprio negocio.</h2>
             </section>
         </div>
     </div>

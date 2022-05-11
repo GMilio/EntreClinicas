@@ -106,6 +106,12 @@ display: flex;
     padding: 10px;
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+  }
+
 h1{
     text-align:center;
     margin-top: 80px;

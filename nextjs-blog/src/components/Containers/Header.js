@@ -15,7 +15,7 @@ export default function Header({}){
                     </Link>
                 </li>
                 <li>
-                  <Link>
+                  <Link href="/profissionais">
                     Profissionais
                   </Link>
                 </li>

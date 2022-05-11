@@ -4,45 +4,44 @@ import Link from '../Link'
 export default function Header({}){
     return( 
         <header class="cabecalho">
-         <Link href="/">
-         <img class="logopri" src="logo.png" alt="Logotipo do Site"/>
+          <Link class="logtitulo" href="/">
+          <h1 class="titulo" >EntreClinicas</h1>
+            <img class="logopri" src="logo.png" alt="Logotipo do Site"/>
           </Link>
-          <nav>
-              <ul class="lista">
-                <li>
-                    <Link href="/atendimentos">
-                      Atendimentos
-                    </Link>
-                </li>
-                <li>
-                  <Link href="/atendimentos">
-                    Profissionais
-                  </Link>
-                </li>
-                <li>
-                    <Link href="/cursos">
-                      Cursos
-                    </Link>
-                </li>
-                <li>
-                    <Link href="./parcerias">
-                      Parcerias
-                    </Link>
-                </li>                  
+            <nav class="navlist">
+                <ul class="lista">
                   <li>
-                  <Link href="./login">
-                      Entrar
+                      <Link class="btnhead" href="/atendimentos">
+                        Atendimentos
+                      </Link>
+                  </li>
+                  <li>
+                    <Link class="btnhead" href="/atendimentos">
+                      Profissionais
                     </Link>
                   </li>
                   <li>
-                  <Link href="./cadastro">
-                      Cadastre-se
-                    </Link>
+                      <Link class="btnhead" href="/cursos">
+                        Cursos
+                      </Link>
                   </li>
-              </ul>
-          </nav>
-          <div class="divban">
-        </div>
+                  <li>
+                      <Link class="btnhead" href="./parcerias">
+                        Parcerias
+                      </Link>
+                  </li>                  
+                    <li>
+                    <Link class="btnhead" href="./login">
+                        Entrar
+                      </Link>
+                    </li>
+                    <li>
+                    <Link  class="btncad" href="./cadastro">
+                        Cadastre-se
+                      </Link>
+                    </li>
+                </ul>
+            </nav>
     </header>
     )
 }

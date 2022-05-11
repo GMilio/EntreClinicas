@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Header from '../src/components/Containers/Header'
+
+
 
 export default function Cadastro() {
     return (    
       <main>
-          <Header></Header> 
       <div>
           <div>
               <section>

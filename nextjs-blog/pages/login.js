@@ -1,12 +1,10 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Header from '../src/components/Containers/Header'
 
 export default function Login() {
     return (    
       <main>
-          <Header></Header> 
-      <div>
+      <div class="container">
           <div>
               <section>
                   <form action="">

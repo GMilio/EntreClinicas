@@ -5,7 +5,7 @@ export default function Header({}){
     return( 
         <header class="cabecalho">
          <Link href="/">
-            Logo
+         <img class="logopri" src="logo.png" alt="Logotipo do Site"/>
           </Link>
           <nav>
               <ul class="lista">
@@ -15,7 +15,9 @@ export default function Header({}){
                     </Link>
                 </li>
                 <li>
-                  Alguns dos Nossos Parceiros
+                  <Link href="/atendimentos">
+                    Profissionais
+                  </Link>
                 </li>
                 <li>
                     <Link href="/cursos">

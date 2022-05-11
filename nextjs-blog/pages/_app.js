@@ -6,7 +6,6 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Header/>
-      <div>Fixado</div>
       <Component {...pageProps} />
       <Footer/>
     </>

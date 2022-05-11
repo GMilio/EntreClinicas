@@ -1,5 +1,6 @@
 import { Head } from "next/document"
 import Image from "next/image"
+import footer_javascript from "./footer_javascript"
 
 export default function Footer({}){
     return(
@@ -32,7 +33,8 @@ export default function Footer({}){
                 </li>
             </ul>  
             <li>                  
-                 <h5>Voltar para o topo</h5>
+            <button id="back-to-top">Voltar ao topo</button>
+
             </li>
             
             <li>

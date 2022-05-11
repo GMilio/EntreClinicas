@@ -8,8 +8,8 @@ export default function Header({}){
           <h1 class="titulo" >EntreClinicas</h1>
             <img class="logopri" src="logo.png" alt="Logotipo do Site"/>
           </Link>
-            <nav class="navlist">
-                <ul class="lista">
+          <nav>
+              <ul class="lista">           
                   <li>
                       <Link class="btnhead" href="/atendimentos">
                         Atendimentos.

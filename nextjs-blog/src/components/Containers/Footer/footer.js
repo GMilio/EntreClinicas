@@ -1,5 +1,6 @@
 import { Head } from "next/document"
 import Image from "next/image"
+import footer_javascript from "./footer_javascript"
 
 export default function Footer({}){
     return(
@@ -35,7 +36,15 @@ export default function Footer({}){
                 <li>
                     <img src="ig.png" alt="Instagram Logo" />
                 </li>
+
             </ul> 
+            </ul>  
+            <li>                  
+            <button id="back-to-top">Voltar ao topo</button>
+
+            </li>
+            
+
             <li>
                 <img class="logo" src="logo.png" alt="Logotipo do Site" />
             </li>

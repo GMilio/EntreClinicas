@@ -12,7 +12,7 @@ export default function Header({}){
               <ul class="lista">           
                   <li>
                       <Link class="btnhead" href="/atendimentos">
-                        Atendimentos.
+                        Atendimentos
                       </Link>
                   </li>
                   <li>

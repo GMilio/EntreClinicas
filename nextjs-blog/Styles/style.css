@@ -203,7 +203,41 @@ body::-webkit-scrollbar
     border-radius: 20px;       
     border: 3px solid rgb(146, 232, 244);  
   }
+/* Cursos */
+.container-curso{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    border: 1px solid  #f5cbeb;
+    padding: 0;
+    align-items: center;
+    
+}
+.container-curso-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    padding: 10px;
 
+}
+.curso-1{
+    flex: 1;
+}
+.slides-curso{  
+    padding: 0;
+    margin: 0;
+}
+.slideshow-cursos{
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+.main-curso{
+    margin-top: 64px;
+    padding: 0;
+    background-color: #f7d4ee;
+}
 /* Atendimentos */
 .slideshow-container{
     max-width: 1000px;
